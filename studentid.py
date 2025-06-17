@@ -1,0 +1,5 @@
+print("Hello there! This is my program!")
+name = input("Enter your name: ")
+grade_level = input("Enter your grade level: ")
+email = input("Enter your email address: ")
+print(f"Hello, {name}. Your grade level is {grade_level} and your email is {email}.")
