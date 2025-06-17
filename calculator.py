@@ -1,30 +1,29 @@
-num1 = 2
-num2 = 3
-num3 = 4
-num4 = 5
-num5 = 6
-num6 = 7
-num7 = 8
-num8 = 9
-num9 = 10
-num10 = 11
-
+#addition
+num1= int(input("type in a number: "))
+num2= int(input("type in another number: "))
 sum = num1 + num2
-print("Sum of num1 and num2")
-print(sum)
+print(f"The sum of {num1} and {num2} is {sum}")
 
-mult = num3 * num4
-print("Multiplication of num3 and num4")
-print(mult)
+#subtraction
+num3 = int(input("type in a number: "))
+num4 = int(input("type in another number: "))
+sum = num3 - num4
+print(f"The difference of {num3} and {num4} is {sum}")
 
-div = num5 / num6
-print("Division of num5 and num6")
-print(div)
+#multiplication
+num5 = int(input("type in a number: "))
+num6 = int(input("type in another number: "))
+product= num5*num6
+print(f"The product of {num5} and {num6} is {product}")
 
-sub = num8 - num7
-print("Subtraction of num7 and num8")
-print(sub)
+#division
+num7 = int(input("type in a number: "))
+num8 = int(input("type in another number: "))
+quotient = num7 / num8
+print(f"The quotient of {num7} and {num8} is {quotient}")
 
-mod = num10 % num9
-print("Modulus of num10 and num9")
-print(mod)
+#modulus
+num9 = int(input("type in a number: "))
+num10 = int(input("type in another number: "))
+remainder = num9 % num10
+print(f"The remainder of {num9} and {num10} is {remainder}")

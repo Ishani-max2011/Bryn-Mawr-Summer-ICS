@@ -1,18 +1,10 @@
-
-
-number = 10
-print(number)
-
-num2 = 5
-print(number+num2)
-
-sum = number + num2
-print("sum number")
-print(sum)
-
-name = "Ishani Ganguly"
+print("demo'ing input")
+name = input("What is your name?: ")
 print(name)
 
-number=10
-number=25
-print(25)
+print("input and math")
+num1 = int(input("enter a number: "))
+num2 = int(input("enter another number: "))
+sum = (num1) + (num2)
+print(sum)
+print(f"The sum of {num1} and {num2} is {sum}")
